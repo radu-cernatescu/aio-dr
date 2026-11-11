@@ -1,0 +1,20 @@
+{
+  "name": "aio-dr",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Disaster-recovery infrastructure for AIOStreams + AIOMetadata",
+  "scripts": {
+    "build": "tsc",
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "deploy:persistent": "cdk deploy AioPersistent"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "aws-cdk": "^2.1000.0",
+    "aws-cdk-lib": "^2.200.0",
+    "constructs": "^10.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.0"
+  }
+}

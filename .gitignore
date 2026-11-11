@@ -1,0 +1,11 @@
+node_modules/
+cdk.out/
+dist/
+*.js
+*.d.ts
+!scripts/*.js
+.env
+*.local
+# Deployment-specific settings and CDK's lookup cache (contains the AWS account ID): never committed.
+aio.config.json
+cdk.context.json

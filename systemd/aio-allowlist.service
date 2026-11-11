@@ -1,0 +1,6 @@
+[Unit]
+Description=Sync current public IP to the AIO DR allowlist (SSM)
+
+[Service]
+Type=oneshot
+ExecStart=%h/aio-dr/scripts/update-allowlist.sh

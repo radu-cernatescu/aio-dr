@@ -1,0 +1,6 @@
+[Unit]
+Description=Report AIO heartbeat to CloudWatch
+
+[Service]
+Type=oneshot
+ExecStart=%h/aio-dr/scripts/heartbeat.sh

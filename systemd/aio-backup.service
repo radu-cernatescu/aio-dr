@@ -1,0 +1,6 @@
+[Unit]
+Description=Back up AIOStreams + AIOMetadata to S3
+
+[Service]
+Type=oneshot
+ExecStart=%h/aio-dr/scripts/backup.sh
